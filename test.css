@@ -1,0 +1,51 @@
+body {
+	background-image: url("image.jpg");
+	background-repeat: repeat;
+	background-color: #FFFF99;
+	text-align: center;
+	color: navy;
+}
+p {
+	text-align: left;
+	font-size: 32px;
+	}
+
+#mouse_pos {
+	text-align: right;
+	color: red;
+	font-size: 24px;
+}
+.maroon {
+	color: maroon;
+	background-color: gray;
+}
+
+.butt {
+	color: blue;
+	background-color: red;
+	width: 36px; 
+	height: 24px;
+}
+
+ol.a {
+	list-style-type: upper-alpha;
+}
+
+ul.a {
+	list-style-type: square;
+}
+
+
+a:link    {color:#000000; background-color:transparent; text-decoration:underline}
+a:visited {color:#000000; background-color:transparent; text-decoration:underline}
+a:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
+a:active  {color:#ff0000; background-color:transparent; text-decoration:underline}
+
+
+table, th, td {
+	text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+    margin: 0 auto;
+}
